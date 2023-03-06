@@ -1,9 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:login_practica/perfil.dart';
 
 import 'singup.dart';
 import 'login.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         'login': (context) => const MainLogInScreen(),
-        'Singup': (context) => const SingUpScreen()
+        'Singup': (context) => const SingUpScreen(),
       },
       debugShowCheckedModeBanner: false,
       initialRoute: 'login',

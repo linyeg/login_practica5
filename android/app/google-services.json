@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284019016282",
+    "project_id": "login-flutter-dc46c",
+    "storage_bucket": "login-flutter-dc46c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284019016282:android:1bcef1fe91ec045ec90e63",
+        "android_client_info": {
+          "package_name": "com.example.practica_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284019016282-67cocct83dvl7bkahr333i5bihpg1ihn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvx6QbcaQLOBbluCG2Y6DCRYxTrJClmyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284019016282-67cocct83dvl7bkahr333i5bihpg1ihn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

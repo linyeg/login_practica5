@@ -100,7 +100,9 @@ class _MainLogInScreenState extends State<MainLogInScreen> {
                   minimumSize: const Size(300, 50),
                   backgroundColor: Color.fromARGB(255, 34, 34, 34),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, 'perfil');
+                },
                 child: const Text("Iniciar Sesión",
                     style: TextStyle(
                         color: Color.fromARGB(255, 255, 255, 255),
